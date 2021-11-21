@@ -80,6 +80,7 @@ public class Task03Main {
     private static boolean isAnagramTo(String source, String resource) {
         if (source.length() != resource.length()) {
             return false;
+
         }
         char[] sourceChars = source.toCharArray();
         char[] resourceChars = resource.toCharArray();
